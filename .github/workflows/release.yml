@@ -1,0 +1,32 @@
+# Setzt hochgeladene Teilstücke wieder zu den Programm-Paketen zusammen
+# und veröffentlicht sie als Download (Release). Wird durch eine Datei
+# parts/RELEASE (enthält die Versionsnummer) ausgelöst.
+name: Release veröffentlichen
+on:
+  push:
+    paths: ['parts/RELEASE']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pakete zusammensetzen und prüfen
+        run: |
+          set -e
+          VER=$(cat parts/RELEASE | tr -d '[:space:]')
+          echo "VER=$VER" >> $GITHUB_ENV
+          mkdir out
+          for base in $(ls parts/*.part01 | sed 's/\.part01$//'); do
+            name=$(basename "$base")
+            cat "$base".part* > "out/$name"
+          done
+          cd out && sha256sum -c ../parts/SHA256SUMS
+      - name: Release anlegen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete "v$VER" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "v$VER" out/*.zip --title "Sportlens Uploader $VER" --notes-file parts/NOTES.md --latest
