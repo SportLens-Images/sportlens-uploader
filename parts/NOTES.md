@@ -1,6 +1,6 @@
-**Sportlens Uploader 1.0.3** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.0.4** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
-Neu: Bereich „Kreativ“ für Landschaft, Architektur, Tiere & Co. Oben in der Spielauswahl „Kreativ“ wählen, dann Titel, Thema und Ort eintragen und mit Enter übernehmen.
+Neu: „Aus Liste entfernen“ funktioniert jetzt auch für Bilder in der Warteschlange und bricht einen laufenden Upload ab. Außerdem: Bereich „Kreativ“ für Landschaft, Architektur, Tiere & Co.
 
 | Computer | Datei |
 |---|---|
