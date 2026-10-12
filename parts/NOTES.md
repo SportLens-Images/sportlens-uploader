@@ -1,6 +1,6 @@
-**Sportlens Uploader 1.0.4** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.0.5** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
-Neu: „Aus Liste entfernen“ funktioniert jetzt auch für Bilder in der Warteschlange und bricht einen laufenden Upload ab. Außerdem: Bereich „Kreativ“ für Landschaft, Architektur, Tiere & Co.
+Neu: Liegen Bilder in einer anderen Liste in der Warteschlange, zeigt die Leiste unten „in anderer Liste – zeigen“. „Aus Liste entfernen“ bricht auch laufende Uploads ab.
 
 | Computer | Datei |
 |---|---|
