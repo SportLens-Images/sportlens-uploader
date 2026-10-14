@@ -1,6 +1,6 @@
-**Sportlens Uploader 1.0.6** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.0.7** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
-Neu: Die App zeigt beim Hochladen Prozent, Geschwindigkeit und „Server verarbeitet …“. Nimmt der Server keine Daten an, kommt eine klare Meldung statt endlosem Warten.
+Neu: Robustere Übertragung. Blockiert ein Filter beim Webhoster ein Stück der Datei, wechselt die App automatisch die Übertragungsart und Stückgröße, statt hängenzubleiben (volle Wirkung mit Sportlens Core 0.18.1).
 
 | Computer | Datei |
 |---|---|
