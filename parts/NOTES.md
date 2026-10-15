@@ -1,6 +1,6 @@
-**Sportlens Uploader 1.1.1** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.2.0** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
-Neu: „Bildunterschrift selbst schreiben“ übernimmt jetzt die angezeigte Bildunterschrift, sodass du sie nur noch ergänzen musst.
+Neu: Enter übernimmt nur noch die Verschlagwortung. Hochgeladen wird ausschließlich per Button „An Sportlens“ für die markierten Bilder – nichts geht mehr automatisch raus.
 
 | Computer | Datei |
 |---|---|
