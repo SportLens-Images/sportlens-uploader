@@ -1,6 +1,6 @@
-**Sportlens Uploader 1.2.0** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.3.0** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
-Neu: Enter übernimmt nur noch die Verschlagwortung. Hochgeladen wird ausschließlich per Button „An Sportlens“ für die markierten Bilder – nichts geht mehr automatisch raus.
+Neu für den Betreiber: Nach dem Upload wird zusätzlich das volle Kamera-Original übertragen (für große Drucke). Das passiert automatisch im Hintergrund, nach den Bildern. Bei Bildern, die schon online sind, wird es nachgereicht, sobald du sie noch einmal hinzufügst.
 
 | Computer | Datei |
 |---|---|
