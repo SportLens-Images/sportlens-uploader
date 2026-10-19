@@ -1,6 +1,7 @@
-**Sportlens Uploader 1.4.0** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.4.1** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
 Neu:
+- Behoben: Spieler, die per Klick in der Kaderliste, über die Aktionen oder die Personensuche eingetragen wurden, gingen beim Bildwechsel verloren. Jetzt wird jede Eingabe sofort gespeichert.
 - Kein Enter mehr nötig: Spieler/Nummer, Aktion, Stichwörter und eigene Bildunterschrift werden beim Tippen gespeichert – auch beim Bildwechsel und beim Schließen. Mit Spieler steht das Bild automatisch auf „Sportlens fertig“. Enter springt nur noch zum nächsten Bild.
 - Beautiful Sports: Bilder ohne Spieler werden nicht gesendet, es kommt eine Warnung. Es zählt immer der aktuelle Stand.
 - Versionsnummer oben neben dem Logo.
