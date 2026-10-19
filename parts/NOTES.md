@@ -1,9 +1,10 @@
-**Sportlens Uploader 1.3.1** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
+**Sportlens Uploader 1.4.0** – Bilder verschlagworten (auch ohne Internet) und direkt zu Sportlens Images hochladen.
 
 Neu:
-- Mehrfachauswahl gut sichtbar (gelber Rand mit Häkchen). Cmd/Strg+A markiert alle Bilder, auch wenn das Verschlagwortungs-Feld leer ist.
-- Reiter und Status klar benannt: „Sportlens offen“, „Sportlens: hochgeladen“ usw.
-- Beautiful Sports: alle Bilder über eine einzige Verbindung; bei „zu vielen Verbindungen“ wartet die App und macht weiter. Fehlgeschlagene Bilder sind mit „BS ✗“ markiert, neue Filter „BS ✓“ / „BS ✗“.
+- Kein Enter mehr nötig: Spieler/Nummer, Aktion, Stichwörter und eigene Bildunterschrift werden beim Tippen gespeichert – auch beim Bildwechsel und beim Schließen. Mit Spieler steht das Bild automatisch auf „Sportlens fertig“. Enter springt nur noch zum nächsten Bild.
+- Beautiful Sports: Bilder ohne Spieler werden nicht gesendet, es kommt eine Warnung. Es zählt immer der aktuelle Stand.
+- Versionsnummer oben neben dem Logo.
+- Aus 1.3.1: Mehrfachauswahl sichtbar (gelber Rand mit Häkchen), Reiter „Sportlens …“, Filter „BS ✓“ / „BS ✗“, Beautiful Sports über eine Verbindung.
 
 | Computer | Datei |
 |---|---|
